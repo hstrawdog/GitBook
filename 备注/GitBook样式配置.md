@@ -1,4 +1,23 @@
-样式1
+
+# 插件
+1. [参考](https://segmentfault.com/a/1190000019806829)
+1. [GitBook 悬浮目录](https://github.com/zq99299/gitbook-plugin-anchor-navigation-ex)
+1. [GitBook 插件](https://www.jianshu.com/p/427b8bb066e6)
+1. [GitBook 插件](http://gitbook.zhangjikai.com/plugins.html)
+
+
+
+
+#其他搭建方式
+## docsify
+与GitPage 搭配使用效果与GitBook类似
+
+1. [github](https://github.com/docsifyjs/docsify)
+2. [在线的示例](http://doc.zhangjikai.com/#/)
+
+
+# 样式
+## 样式1
 ```
 {
     "title": "gitbook tutorial",
@@ -42,7 +61,7 @@
 }
 ```
 
-样式二
+## 样式二
 
 ```
 {

@@ -3,15 +3,20 @@
     "structure": {
         "readme": "README.md"
     },
+     "styles": {
+    "website": "styles/website.css"
+  },
     "plugins": [ 
         "-search",
+        "-lunr",
+        "-highlight",
         "github",
         "hide-element",
         "splitter", 
         "tbfed-pagefooter",
-        "back-to-top-button",
         "code",
-        "page-toc-button" 
+        "chapter-fold",
+        "anchor-navigation-ex" 
     ],
     "pluginsConfig": {
         "code": {
@@ -28,9 +33,16 @@
             "modify_label": "该文件修订时间：",
             "modify_format": "YYYY-MM-DD HH:mm:ss"
         },
-        "page-toc-button": {
-            "maxTocDepth": 2,
-            "minTocSize": 2
+          "theme-default": {
+          "showLevel": false,
+           "mode": "float",
+            "float": { 
+            "floatIcon": "fa fa-navicon", 
+            "showLevelIcon": false, 
+            "level1Icon": "fa fa-hand-o-right", 
+            "level2Icon": "fa fa-hand-o-right",
+            "level3Icon": "fa fa-hand-o-right"
+            }
         }
     }
 }

@@ -25,19 +25,15 @@
                 
             
                 
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-back-to-top-button/plugin.css">
-                
-            
-                
                 <link rel="stylesheet" href="../gitbook/gitbook-plugin-code/plugin.css">
                 
             
                 
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-page-toc-button/plugin.css">
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-chapter-fold/chapter-fold.css">
                 
             
                 
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
                 
             
                 
@@ -48,16 +44,6 @@
 
     
 
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
     
         
     
@@ -146,7 +132,7 @@
                 <a href="../java/异常.html">
             
                     
-                    异常
+                    异常分类 Throwable
             
                 </a>
             
@@ -251,9 +237,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.3.1" data-path="Android大纲.html">
+        <li class="chapter " data-level="1.3.1" data-path="../andriud/idnex.html">
             
-                <a href="Android大纲.html">
+                <a href="../andriud/idnex.html">
             
                     
                     Android 大纲
@@ -515,9 +501,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5" data-path="../AS/">
+        <li class="chapter " data-level="1.5" data-path="../as/">
             
-                <a href="../AS/">
+                <a href="../as/">
             
                     
                     Android Studio
@@ -528,9 +514,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.6" data-path="../ch1/">
+        <li class="chapter " data-level="1.6" data-path="../kotlin/">
             
-                <a href="../ch1/">
+                <a href="../kotlin/">
             
                     
                     Kotlin
@@ -554,9 +540,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.8" data-path="../ch1/">
+        <li class="chapter " data-level="1.8" data-path="../python/">
             
-                <a href="../ch1/">
+                <a href="../python/">
             
                     
                     Python
@@ -567,12 +553,12 @@
             
         </li>
     
-        <li class="chapter " data-level="1.9" data-path="../ch1/">
+        <li class="chapter " data-level="1.9" data-path="../flutter/">
             
-                <a href="../ch1/">
+                <a href="../flutter/">
             
                     
-                    Fulter
+                    Flutter
             
                 </a>
             
@@ -593,9 +579,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.11" data-path="../ps/handbooks.html">
+        <li class="chapter " data-level="1.11" data-path="../备注/">
             
-                <a href="../ps/handbooks.html">
+                <a href="../备注/">
             
                     
                     备注
@@ -664,9 +650,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.14" data-path="../no_end/postscript.html">
+        <li class="chapter " data-level="1.14" data-path="../ps/postscript.html">
             
-                <a href="../no_end/postscript.html">
+                <a href="../ps/postscript.html">
             
                     
                     后记
@@ -719,84 +705,121 @@
                             
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="&#x7B2C;&#x4E09;&#x65B9;&#x5F00;&#x6E90;&#x6846;&#x67B6;">&#x7B2C;&#x4E09;&#x65B9;&#x5F00;&#x6E90;&#x6846;&#x67B6;</h1>
-<pre><code>        BRVAH&#x4EE5;&#x53CA;&#x4E0A;&#x62C9;&#x52A0;&#x8F7D;
-            &#x591A;&#x79CD;&#x5E03;&#x5C40;
-            &#x591A;&#x7EA7;&#x83DC;&#x5355;&#x6298;&#x53E0;
-        &#x7F51;&#x7EDC;&#x8BF7;&#x6C42;
-            OkHttp
-                &#x62E6;&#x622A;&#x5668;&#xFF08;&#x8D23;&#x4EFB;&#x94FE;&#x6A21;&#x5F0F;&#xFF09;
-                &#x8D85;&#x65F6;&#x91CD;&#x4F20;&amp;&#x91CD;&#x5B9A;&#x5411;
-                Http&#x7F13;&#x5B58;
-                Socket&#x8FDE;&#x63A5;&#x6C60;&#x590D;&#x7528;
-            Retrofit
-                &#x5E38;&#x7528;&#x7684;&#x6CE8;&#x89E3;&#x662F;&#x5982;&#x4F55;&#x642D;&#x914D;&#x7684;
-                &#x52A8;&#x6001;&#x4EE3;&#x7406;
-                &#x8FD0;&#x884C;&#x65F6;&#x6CE8;&#x89E3;
-                GsonConverter
-                RxJava2CallAdapter
-            Volley
-                &#x6709;&#x90A3;&#x4E9B;&#x4F18;&#x70B9;&#x4E0E;&#x7F3A;&#x70B9;/&#x4E0D;&#x8DB3;
-        &#x56FE;&#x7247;
-            Glide
-                Glide &#x7684;&#x4E09;&#x7EA7;&#x7F13;&#x5B58;
-                LruCahe &#x7684;&#x539F;&#x7406; /&#x5982;&#x4F55;&#x5B9E;&#x73B0;
-                &#x751F;&#x547D;&#x5468;&#x671F;&#x63A7;&#x5236;
-                BitmapPool&#x590D;&#x7528;
-            Picasso
-            Fresco
-            Luban(&#x9C81;&#x73ED;&#x538B;&#x7F29;)
-        json&#x89E3;&#x6790;/&#x5E8F;&#x5217;&#x5316;
-            Gson
-                &#x7C7B;&#x578B;&#x88C5;&#x6362;&#x5F02;&#x5E38;
-                    &#x5982; int &#x4E0E;double
-            fastJson
-        &#x4E0B;&#x62C9;&#x5237;&#x65B0;
-            android-Ultra-Pull-To-Refresh
-            smartrefreshlayout
-        Leakcanary
-            &#x5982;&#x4F55;&#x5224;&#x65AD;&#x662F;&#x5426;&#x662F;&#x8BEF;&#x62A5;&#x7684;&#x5185;&#x5B58;&#x6CC4;&#x6F0F;
-        EventBus
-             4 &#x79CD; ThreadModel
-                PostThread
-                    PostThread &#x9ED8;&#x8BA4;&#x5B9E;&#x73B0;&#xFF0C;&#x6267;&#x884C;&#x53D1;&#x751F;&#x5728;&#x540C;&#x4E00;&#x4E2A;&#x7EBF;&#x7A0B; 
-                MainThread
-                    MainThread &#x6267;&#x884C;&#x5728;UI &#x7EBF;&#x7A0B;&#x4E0A;
-                BackgroundThread
-                    BackgroundThread &#x56DE;&#x8C03;&#x53D1;&#x751F;&#x5728;&#x975E; UI &#x7EBF;&#x7A0B;&#x4E0A; 
-                Async
-                    Async &#x6C38;&#x8FDC;&#x6267;&#x884C;&#x5728;&#x4E00;&#x4E2A;&#x5176;&#x4ED6;&#x7684;&#x7EBF;&#x7A0B;&#x4E0A;
-            &#x5B9E;&#x73B0;&#x7684;&#x539F;&#x7406;
-            &#x8FD0;&#x7528;&#x4E86;&#x90A3;&#x4E9B;&#x8BBE;&#x8BA1;&#x6A21;&#x5F0F;
-                &#x89C2;&#x5BDF;&#x8005;&#x6A21;&#x5F0F;&#x89E3;&#x8026;
-            &#x4E3A;&#x4F55;&#x4F1A;&#x9009;&#x62E9;&#x7528;&#x8FD9;&#x4E2A; &#x4E0D;&#x91C7;&#x7528;&#x5E7F;&#x64AD;&#x6216;&#x8005;&#x5176;&#x4ED6;&#x65B9;&#x6848;
-            &#x5982;&#x4F55;&#x7EF4;&#x62A4;&#x4E8B;&#x4EF6;&#x5BF9;&#x8C61;
-            &#x5982;&#x4F55;&#x5B9E;&#x73B0;&#x7EBF;&#x7A0B;&#x8F6C;&#x6362;&#x7684;
-            &#x5982;&#x4F55;&#x53D1;&#x5E03;&#x4E8B;&#x4EF6;&#x7684;
-        &#x6570;&#x636E;&#x5E93;&#x6846;&#x67B6;
-            GreenDao
-            room
-        &#x8DEF;&#x7531;
-            ARouter
-                IInterceptor (&#x62E6;&#x622A;&#x5668;)
-                IProvider (&#x670D;&#x52A1;)
-                Route(&#x5730;&#x5740;)
-                PathReplaceService (&#x91CD;&#x5199;&#x5730;&#x5740;)
-                &#x8DEF;&#x7531;&#x5206;&#x7EC4;
-        &#x4F9D;&#x8D56;&#x6CE8;&#x5165;
-            butterknife
-                apt
-            Dagger2
-        &#x54CD;&#x5E94;&#x5F0F;&#x7F16;&#x7A0B;
-            RxJava
-                &#x5E38;&#x7528;&#x64CD;&#x4F5C;&#x7B26;
-                &#x7EBF;&#x7A0B;&#x8C03;&#x5EA6;
-                &#x5F02;&#x5E38;&#x5904;&#x7406;
-                Flowable&#x80CC;&#x538B;
-            RxBinding
-            RxAndroid
-</code></pre><footer class="page-footer"><span class="copyright">Copyright &#xA9; huangqiqiang 2020 all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x8BE5;&#x6587;&#x4EF6;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
-2020-01-04 00:41:31
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><li><span class="title-icon "></span><a href="#&#x7B2C;&#x4E09;&#x65B9;&#x5F00;&#x6E90;&#x6846;&#x67B6;"><b>1. </b>&#x7B2C;&#x4E09;&#x65B9;&#x5F00;&#x6E90;&#x6846;&#x67B6;</a></li><li><span class="title-icon "></span><a href="#brvah&#x4EE5;&#x53CA;&#x4E0A;&#x62C9;&#x52A0;&#x8F7D;"><b>2. </b>BRVAH&#x4EE5;&#x53CA;&#x4E0A;&#x62C9;&#x52A0;&#x8F7D;</a></li><li><span class="title-icon "></span><a href="#&#x7F51;&#x7EDC;&#x8BF7;&#x6C42;"><b>3. </b>&#x7F51;&#x7EDC;&#x8BF7;&#x6C42;</a></li><ul><li><span class="title-icon "></span><a href="#okhttp"><b>3.1. </b>OkHttp</a></li><li><span class="title-icon "></span><a href="#retrofit"><b>3.2. </b>Retrofit</a></li><li><span class="title-icon "></span><a href="#volley"><b>3.3. </b>Volley</a></li></ul><li><span class="title-icon "></span><a href="#&#x56FE;&#x7247;"><b>4. </b>&#x56FE;&#x7247;</a></li><ul><li><span class="title-icon "></span><a href="#glide"><b>4.1. </b>Glide</a></li><li><span class="title-icon "></span><a href="#picasso"><b>4.2. </b>Picasso</a></li><li><span class="title-icon "></span><a href="#fresco"><b>4.3. </b>Fresco</a></li><li><span class="title-icon "></span><a href="#luban&#x9C81;&#x73ED;&#x538B;&#x7F29;"><b>4.4. </b>Luban(&#x9C81;&#x73ED;&#x538B;&#x7F29;)</a></li></ul><li><span class="title-icon "></span><a href="#json&#x89E3;&#x6790;&#x5E8F;&#x5217;&#x5316;"><b>5. </b>json&#x89E3;&#x6790;/&#x5E8F;&#x5217;&#x5316;</a></li><ul><li><span class="title-icon "></span><a href="#gson"><b>5.1. </b>Gson</a></li><li><span class="title-icon "></span><a href="#fastjson"><b>5.2. </b>fastJson</a></li></ul><li><span class="title-icon "></span><a href="#&#x4E0B;&#x62C9;&#x5237;&#x65B0;"><b>6. </b>&#x4E0B;&#x62C9;&#x5237;&#x65B0;</a></li><ul><li><span class="title-icon "></span><a href="#android-ultra-pull-to-refresh"><b>6.1. </b>android-Ultra-Pull-To-Refresh</a></li><li><span class="title-icon "></span><a href="#smartrefreshlayout"><b>6.2. </b>smartrefreshlayout</a></li></ul><li><span class="title-icon "></span><a href="#leakcanary"><b>7. </b>Leakcanary</a></li><li><span class="title-icon "></span><a href="#eventbus"><b>8. </b>EventBus</a></li><li><span class="title-icon "></span><a href="#&#x6570;&#x636E;&#x5E93;&#x6846;&#x67B6;"><b>9. </b>&#x6570;&#x636E;&#x5E93;&#x6846;&#x67B6;</a></li><li><span class="title-icon "></span><a href="#&#x8DEF;&#x7531;"><b>10. </b>&#x8DEF;&#x7531;</a></li><ul><li><span class="title-icon "></span><a href="#arouter"><b>10.1. </b>ARouter</a></li></ul><li><span class="title-icon "></span><a href="#&#x4F9D;&#x8D56;&#x6CE8;&#x5165;"><b>11. </b>&#x4F9D;&#x8D56;&#x6CE8;&#x5165;</a></li><li><span class="title-icon "></span><a href="#&#x54CD;&#x5E94;&#x5F0F;&#x7F16;&#x7A0B;"><b>12. </b>&#x54CD;&#x5E94;&#x5F0F;&#x7F16;&#x7A0B;</a></li><ul><li><span class="title-icon "></span><a href="#rxjava"><b>12.1. </b>RxJava</a></li><li><span class="title-icon "></span><a href="#rxbinding"><b>12.2. </b>RxBinding</a></li><li><span class="title-icon "></span><a href="#rxandroid"><b>12.3. </b>RxAndroid</a></li></ul></ul></div><a href="#&#x7B2C;&#x4E09;&#x65B9;&#x5F00;&#x6E90;&#x6846;&#x67B6;" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="&#x7B2C;&#x4E09;&#x65B9;&#x5F00;&#x6E90;&#x6846;&#x67B6;"><a name="&#x7B2C;&#x4E09;&#x65B9;&#x5F00;&#x6E90;&#x6846;&#x67B6;" class="anchor-navigation-ex-anchor" href="#&#x7B2C;&#x4E09;&#x65B9;&#x5F00;&#x6E90;&#x6846;&#x67B6;"><i class="fa fa-link" aria-hidden="true"></i></a>1. &#x7B2C;&#x4E09;&#x65B9;&#x5F00;&#x6E90;&#x6846;&#x67B6;</h1>
+<h1 id="brvah&#x4EE5;&#x53CA;&#x4E0A;&#x62C9;&#x52A0;&#x8F7D;"><a name="brvah&#x4EE5;&#x53CA;&#x4E0A;&#x62C9;&#x52A0;&#x8F7D;" class="anchor-navigation-ex-anchor" href="#brvah&#x4EE5;&#x53CA;&#x4E0A;&#x62C9;&#x52A0;&#x8F7D;"><i class="fa fa-link" aria-hidden="true"></i></a>2. BRVAH&#x4EE5;&#x53CA;&#x4E0A;&#x62C9;&#x52A0;&#x8F7D;</h1>
+<ol>
+<li>&#x591A;&#x79CD;&#x5E03;&#x5C40;</li>
+<li>&#x591A;&#x7EA7;&#x83DC;&#x5355;&#x6298;&#x53E0;</li>
+</ol>
+<h1 id="&#x7F51;&#x7EDC;&#x8BF7;&#x6C42;"><a name="&#x7F51;&#x7EDC;&#x8BF7;&#x6C42;" class="anchor-navigation-ex-anchor" href="#&#x7F51;&#x7EDC;&#x8BF7;&#x6C42;"><i class="fa fa-link" aria-hidden="true"></i></a>3. &#x7F51;&#x7EDC;&#x8BF7;&#x6C42;</h1>
+<h2 id="okhttp"><a name="okhttp" class="anchor-navigation-ex-anchor" href="#okhttp"><i class="fa fa-link" aria-hidden="true"></i></a>3.1. OkHttp</h2>
+<ol>
+<li>&#x62E6;&#x622A;&#x5668;&#xFF08;&#x8D23;&#x4EFB;&#x94FE;&#x6A21;&#x5F0F;&#xFF09;</li>
+<li>&#x8D85;&#x65F6;&#x91CD;&#x4F20;&amp;&#x91CD;&#x5B9A;&#x5411;</li>
+<li>Http&#x7F13;&#x5B58;</li>
+<li>Socket&#x8FDE;&#x63A5;&#x6C60;&#x590D;&#x7528;</li>
+</ol>
+<h2 id="retrofit"><a name="retrofit" class="anchor-navigation-ex-anchor" href="#retrofit"><i class="fa fa-link" aria-hidden="true"></i></a>3.2. Retrofit</h2>
+<ol>
+<li>&#x5E38;&#x7528;&#x7684;&#x6CE8;&#x89E3;&#x662F;&#x5982;&#x4F55;&#x642D;&#x914D;&#x7684;</li>
+<li>&#x52A8;&#x6001;&#x4EE3;&#x7406;</li>
+<li>&#x8FD0;&#x884C;&#x65F6;&#x6CE8;&#x89E3;</li>
+<li>GsonConverter</li>
+<li>RxJava2CallAdapter</li>
+</ol>
+<h2 id="volley"><a name="volley" class="anchor-navigation-ex-anchor" href="#volley"><i class="fa fa-link" aria-hidden="true"></i></a>3.3. Volley</h2>
+<ol>
+<li>&#x6709;&#x90A3;&#x4E9B;&#x4F18;&#x70B9;&#x4E0E;&#x7F3A;&#x70B9;/&#x4E0D;&#x8DB3;</li>
+</ol>
+<h1 id="&#x56FE;&#x7247;"><a name="&#x56FE;&#x7247;" class="anchor-navigation-ex-anchor" href="#&#x56FE;&#x7247;"><i class="fa fa-link" aria-hidden="true"></i></a>4. &#x56FE;&#x7247;</h1>
+<h2 id="glide"><a name="glide" class="anchor-navigation-ex-anchor" href="#glide"><i class="fa fa-link" aria-hidden="true"></i></a>4.1. Glide</h2>
+<ol>
+<li>Glide &#x7684;&#x4E09;&#x7EA7;&#x7F13;&#x5B58;</li>
+<li>LruCahe &#x7684;&#x539F;&#x7406; /&#x5982;&#x4F55;&#x5B9E;&#x73B0;</li>
+<li>&#x751F;&#x547D;&#x5468;&#x671F;&#x63A7;&#x5236;</li>
+<li>BitmapPool&#x590D;&#x7528;</li>
+</ol>
+<h2 id="picasso"><a name="picasso" class="anchor-navigation-ex-anchor" href="#picasso"><i class="fa fa-link" aria-hidden="true"></i></a>4.2. Picasso</h2>
+<h2 id="fresco"><a name="fresco" class="anchor-navigation-ex-anchor" href="#fresco"><i class="fa fa-link" aria-hidden="true"></i></a>4.3. Fresco</h2>
+<h2 id="luban&#x9C81;&#x73ED;&#x538B;&#x7F29;"><a name="luban&#x9C81;&#x73ED;&#x538B;&#x7F29;" class="anchor-navigation-ex-anchor" href="#luban&#x9C81;&#x73ED;&#x538B;&#x7F29;"><i class="fa fa-link" aria-hidden="true"></i></a>4.4. Luban(&#x9C81;&#x73ED;&#x538B;&#x7F29;)</h2>
+<h1 id="json&#x89E3;&#x6790;&#x5E8F;&#x5217;&#x5316;"><a name="json&#x89E3;&#x6790;&#x5E8F;&#x5217;&#x5316;" class="anchor-navigation-ex-anchor" href="#json&#x89E3;&#x6790;&#x5E8F;&#x5217;&#x5316;"><i class="fa fa-link" aria-hidden="true"></i></a>5. json&#x89E3;&#x6790;/&#x5E8F;&#x5217;&#x5316;</h1>
+<h2 id="gson"><a name="gson" class="anchor-navigation-ex-anchor" href="#gson"><i class="fa fa-link" aria-hidden="true"></i></a>5.1. Gson</h2>
+<ol>
+<li><p>&#x7C7B;&#x578B;&#x88C5;&#x6362;&#x5F02;&#x5E38;</p>
+<p>&#x5982; int&#x4E0E;double</p>
+</li>
+</ol>
+<h2 id="fastjson"><a name="fastjson" class="anchor-navigation-ex-anchor" href="#fastjson"><i class="fa fa-link" aria-hidden="true"></i></a>5.2. fastJson</h2>
+<h1 id="&#x4E0B;&#x62C9;&#x5237;&#x65B0;"><a name="&#x4E0B;&#x62C9;&#x5237;&#x65B0;" class="anchor-navigation-ex-anchor" href="#&#x4E0B;&#x62C9;&#x5237;&#x65B0;"><i class="fa fa-link" aria-hidden="true"></i></a>6. &#x4E0B;&#x62C9;&#x5237;&#x65B0;</h1>
+<h2 id="android-ultra-pull-to-refresh"><a name="android-ultra-pull-to-refresh" class="anchor-navigation-ex-anchor" href="#android-ultra-pull-to-refresh"><i class="fa fa-link" aria-hidden="true"></i></a>6.1. android-Ultra-Pull-To-Refresh</h2>
+<h2 id="smartrefreshlayout"><a name="smartrefreshlayout" class="anchor-navigation-ex-anchor" href="#smartrefreshlayout"><i class="fa fa-link" aria-hidden="true"></i></a>6.2. smartrefreshlayout</h2>
+<h1 id="leakcanary"><a name="leakcanary" class="anchor-navigation-ex-anchor" href="#leakcanary"><i class="fa fa-link" aria-hidden="true"></i></a>7. Leakcanary</h1>
+<ol>
+<li>&#x5982;&#x4F55;&#x5224;&#x65AD;&#x662F;&#x5426;&#x662F;&#x8BEF;&#x62A5;&#x7684;&#x5185;&#x5B58;&#x6CC4;&#x6F0F;</li>
+</ol>
+<h1 id="eventbus"><a name="eventbus" class="anchor-navigation-ex-anchor" href="#eventbus"><i class="fa fa-link" aria-hidden="true"></i></a>8. EventBus</h1>
+<ol>
+<li><p>4&#x79CD;ThreadModel</p>
+<ol>
+<li><p>PostThread</p>
+<p>PostThread &#x9ED8;&#x8BA4;&#x5B9E;&#x73B0;&#xFF0C;&#x6267;&#x884C;&#x53D1;&#x751F;&#x5728;&#x540C;&#x4E00;&#x4E2A;&#x7EBF;&#x7A0B; </p>
+</li>
+<li><p>MainThread</p>
+<p> MainThread &#x6267;&#x884C;&#x5728;UI &#x7EBF;&#x7A0B;&#x4E0A;</p>
+</li>
+<li><p>BackgroundThread</p>
+<p> BackgroundThread &#x56DE;&#x8C03;&#x53D1;&#x751F;&#x5728;&#x975E; UI &#x7EBF;&#x7A0B;&#x4E0A; </p>
+</li>
+<li><p>Async</p>
+<p> Async &#x6C38;&#x8FDC;&#x6267;&#x884C;&#x5728;&#x4E00;&#x4E2A;&#x5176;&#x4ED6;&#x7684;&#x7EBF;&#x7A0B;&#x4E0A;</p>
+</li>
+</ol>
+</li>
+<li><p>&#x5B9E;&#x73B0;&#x7684;&#x539F;&#x7406;</p>
+</li>
+<li><p>&#x8FD0;&#x7528;&#x4E86;&#x90A3;&#x4E9B;&#x8BBE;&#x8BA1;&#x6A21;&#x5F0F;</p>
+<p> &#x89C2;&#x5BDF;&#x8005;&#x6A21;&#x5F0F;&#x89E3;&#x8026;</p>
+</li>
+<li><p>&#x4E3A;&#x4F55;&#x4F1A;&#x9009;&#x62E9;&#x7528;&#x8FD9;&#x4E2A; &#x4E0D;&#x91C7;&#x7528;&#x5E7F;&#x64AD;&#x6216;&#x8005;&#x5176;&#x4ED6;&#x65B9;&#x6848;</p>
+</li>
+<li>&#x5982;&#x4F55;&#x7EF4;&#x62A4;&#x4E8B;&#x4EF6;&#x5BF9;&#x8C61;</li>
+<li>&#x5982;&#x4F55;&#x5B9E;&#x73B0;&#x7EBF;&#x7A0B;&#x8F6C;&#x6362;&#x7684;</li>
+<li>&#x5982;&#x4F55;&#x53D1;&#x5E03;&#x4E8B;&#x4EF6;&#x7684;</li>
+</ol>
+<h1 id="&#x6570;&#x636E;&#x5E93;&#x6846;&#x67B6;"><a name="&#x6570;&#x636E;&#x5E93;&#x6846;&#x67B6;" class="anchor-navigation-ex-anchor" href="#&#x6570;&#x636E;&#x5E93;&#x6846;&#x67B6;"><i class="fa fa-link" aria-hidden="true"></i></a>9. &#x6570;&#x636E;&#x5E93;&#x6846;&#x67B6;</h1>
+<ol>
+<li>GreenDao</li>
+<li>room</li>
+</ol>
+<h1 id="&#x8DEF;&#x7531;"><a name="&#x8DEF;&#x7531;" class="anchor-navigation-ex-anchor" href="#&#x8DEF;&#x7531;"><i class="fa fa-link" aria-hidden="true"></i></a>10. &#x8DEF;&#x7531;</h1>
+<h2 id="arouter"><a name="arouter" class="anchor-navigation-ex-anchor" href="#arouter"><i class="fa fa-link" aria-hidden="true"></i></a>10.1. ARouter</h2>
+<ol>
+<li>IInterceptor (&#x62E6;&#x622A;&#x5668;)</li>
+<li>IProvider (&#x670D;&#x52A1;)</li>
+<li>Route(&#x5730;&#x5740;)</li>
+<li>PathReplaceService (&#x91CD;&#x5199;&#x5730;&#x5740;)</li>
+<li>&#x8DEF;&#x7531;&#x5206;&#x7EC4;</li>
+</ol>
+<h1 id="&#x4F9D;&#x8D56;&#x6CE8;&#x5165;"><a name="&#x4F9D;&#x8D56;&#x6CE8;&#x5165;" class="anchor-navigation-ex-anchor" href="#&#x4F9D;&#x8D56;&#x6CE8;&#x5165;"><i class="fa fa-link" aria-hidden="true"></i></a>11. &#x4F9D;&#x8D56;&#x6CE8;&#x5165;</h1>
+<ol>
+<li>butterknife<ol>
+<li>apt</li>
+</ol>
+</li>
+<li>Dagger2</li>
+</ol>
+<h1 id="&#x54CD;&#x5E94;&#x5F0F;&#x7F16;&#x7A0B;"><a name="&#x54CD;&#x5E94;&#x5F0F;&#x7F16;&#x7A0B;" class="anchor-navigation-ex-anchor" href="#&#x54CD;&#x5E94;&#x5F0F;&#x7F16;&#x7A0B;"><i class="fa fa-link" aria-hidden="true"></i></a>12. &#x54CD;&#x5E94;&#x5F0F;&#x7F16;&#x7A0B;</h1>
+<h2 id="rxjava"><a name="rxjava" class="anchor-navigation-ex-anchor" href="#rxjava"><i class="fa fa-link" aria-hidden="true"></i></a>12.1. RxJava</h2>
+<ol>
+<li>&#x5E38;&#x7528;&#x64CD;&#x4F5C;&#x7B26;</li>
+<li>&#x7EBF;&#x7A0B;&#x8C03;&#x5EA6;</li>
+<li>&#x5F02;&#x5E38;&#x5904;&#x7406;</li>
+<li>Flowable&#x80CC;&#x538B;</li>
+</ol>
+<h2 id="rxbinding"><a name="rxbinding" class="anchor-navigation-ex-anchor" href="#rxbinding"><i class="fa fa-link" aria-hidden="true"></i></a>12.2. RxBinding</h2>
+<h2 id="rxandroid"><a name="rxandroid" class="anchor-navigation-ex-anchor" href="#rxandroid"><i class="fa fa-link" aria-hidden="true"></i></a>12.3. RxAndroid</h2>
+<footer class="page-footer"><span class="copyright">Copyright &#xA9; huangqiqiang 2020 all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x8BE5;&#x6587;&#x4EF6;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
+2020-01-04 13:47:30
 </span></footer>
                                 
                                 </section>
@@ -824,7 +847,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"第三方开源框架","level":"1.3.1.10","depth":3,"next":{"title":"数据库 Sqlite","level":"1.3.1.11","depth":3,"path":"android/数据库 Sqlite.md","ref":"android/数据库 Sqlite.md","articles":[]},"previous":{"title":"安全以及混淆","level":"1.3.1.9","depth":3,"path":"android/安全以及混淆.md","ref":"android/安全以及混淆.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-search","github","hide-element","splitter","tbfed-pagefooter","back-to-top-button","code","page-toc-button"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"Copyright &copy huangqiqiang 2020","modify_label":"该文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"github":{"url":"https://github.com/huangqiqiang/Book"},"splitter":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"hide-element":{"elements":[".gitbook-link"]},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"page-toc-button":{"maxTocDepth":2,"minTocSize":2},"back-to-top-button":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"gitbook tutorial","gitbook":"*"},"file":{"path":"android/第三方开源框架.md","mtime":"2020-01-03T16:41:31.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-01-03T17:22:29.629Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"第三方开源框架","level":"1.3.1.10","depth":3,"next":{"title":"数据库 Sqlite","level":"1.3.1.11","depth":3,"path":"android/数据库 Sqlite.md","ref":"android/数据库 Sqlite.md","articles":[]},"previous":{"title":"安全以及混淆","level":"1.3.1.9","depth":3,"path":"android/安全以及混淆.md","ref":"android/安全以及混淆.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-search","-lunr","-highlight","github","hide-element","splitter","tbfed-pagefooter","code","chapter-fold","anchor-navigation-ex"],"styles":{"website":"styles/website.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"Copyright &copy huangqiqiang 2020","modify_label":"该文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"chapter-fold":{},"github":{"url":"https://github.com/huangqiqiang/Book"},"splitter":{},"code":{"copyButtons":true},"hide-element":{"elements":[".gitbook-link"]},"fontsettings":{"theme":"white","family":"sans","size":2},"anchor-navigation-ex":{"associatedWithSummary":true,"float":{"floatIcon":"fa fa-navicon","level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showGoTop":true,"showLevel":true},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false,"mode":"float","float":{"floatIcon":"fa fa-navicon","showLevelIcon":false,"level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right"}}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"gitbook tutorial","gitbook":"*"},"file":{"path":"android/第三方开源框架.md","mtime":"2020-01-04T05:47:30.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-01-04T07:06:46.853Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
@@ -846,23 +869,11 @@
         
     
         
-        <script src="../gitbook/gitbook-plugin-back-to-top-button/plugin.js"></script>
-        
-    
-        
         <script src="../gitbook/gitbook-plugin-code/plugin.js"></script>
         
     
         
-        <script src="../gitbook/gitbook-plugin-page-toc-button/plugin.js"></script>
-        
-    
-        
-        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
-        
-    
-        
-        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        <script src="../gitbook/gitbook-plugin-chapter-fold/chapter-fold.js"></script>
         
     
         
