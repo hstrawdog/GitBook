@@ -16,9 +16,15 @@
         "tbfed-pagefooter",
         "code",
         "chapter-fold",
+         "page-treeview",
         "anchor-navigation-ex" 
     ],
     "pluginsConfig": {
+         "page-treeview": {
+            "copyright": "Copyright &#169; aleen42",
+            "minHeaderCount": "2",
+            "minHeaderDeep": "2"
+        },
         "code": {
         "copyButtons": true
         },

@@ -1,5 +1,5 @@
-﻿
-@[TOC]
+
+<!-- toc -->
 
 #  面试资源
 1. https://juejin.im/post/5c7fe0e4e51d4541d82d9cd6
@@ -217,6 +217,7 @@ Looper中持有一个for不断的的从MessageQueue中读取Message 在回调至
 ## Kotlin
       - Kotlin 和 Java 相比，有哪些优点
 ## Flutter
+<!-- endtoc -->
 
 
 
