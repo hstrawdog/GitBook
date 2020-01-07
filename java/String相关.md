@@ -3,7 +3,15 @@
 # String相关
 # String StringBuilder StringBuffer 的区别
 
+String：适用于少量的字符串操作的情况
+StringBuilder：适用于单线程下在字符缓冲区进行大量操作的情况
+StringBuffer：适用多线程下在字符缓冲区进行大量操作的情况
 
+# StringBuilder、StringBuffer、+、String.concat 链接字符串
+
+- StringBuffer 线程安全，StringBuilder 线程不安全
+- +实际上是用 StringBuilder 来实现的，所以非循环体可以直接用 +，循环体不行，因为会频繁创建 StringBuilder
+- String.concat 实质是 new String ，效率也低，耗时排序：StringBuilder < StringBuffer < concat < +
 
 # String.format()的占位符
 

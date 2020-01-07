@@ -30,11 +30,13 @@
 /**
  * treeview container
  */
-
+/**
+    margin-bottom: 80px;
+    padding-bottom: 20px;
+*/
 .treeview__container {
 	position: relative;
-	margin-bottom: 80px;
-	padding-bottom: 20px;
+
 }
 
 .treeview__container-title {

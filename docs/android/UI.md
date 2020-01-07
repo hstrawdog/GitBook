@@ -161,16 +161,27 @@ EditText.requestFocus();
 1. 					如何自定义item
 					
 ##					RecycleView
-1. 					为什么要用RecycleView
-1. 					RecycleView与ListView的区别
-1. 					RecycleView的三级缓存/四级缓存
-1. 					如何实现点击/长按功能
-1. 					如何将item滑动到顶部
-1. 						LayoutManager.scrollToPositionWithOffset
-1. 						如果item内容超过一个屏幕怎么办
-1. 					DiffUtil类差异更新
+1. 为什么要用RecycleView
+
+1. RecycleView与ListView的区别
+
+1. RecycleView的三级缓存/四级缓存
+
+1. 如何实现点击/长按功能
+
+1. 如何将item滑动到顶部
+
+1. LayoutManager.scrollToPositionWithOffset
+
+1. 如果item内容超过一个屏幕怎么办
+
+1. DiffUtil类差异更新
+
 1. 					如何进行局部刷新
-					
+	
+1. 					RecycleView item悬停
+	
+	https://stackoverflow.com/questions/32949971/how-can-i-make-sticky-headers-in-recyclerview-without-external-lib?tdsourcetag=s_pctim_aiomsg
 ##					Fragment
 1. 					懒加载/如何避免 onCreateView 多次执行
 1. 					述说V4下的Fragment与Android下的Fragment有什么区别
@@ -178,6 +189,15 @@ EditText.requestFocus();
 1. 					FragmentPagerAdapter与FragmentStatePagerAdapter 区别
 1. 					getSupportFragmentManager  getFragmentManager  getChildFragmentManager 的区别
 1. 					Fragment如何实现类似Activity栈的压栈和出栈效果的
+1. 					谈一谈Fragment的生命周期
+1. 					谈谈Activity和Fragment的区别？
+1. 					FragmentManager中add与replace的hide区别（Fragment重叠）
+1. 					getFragmentManager、getSupportFragmentManager 、getChildFragmentManager之间的区别？
+1. 					FragmentPagerAdapter与FragmentStatePagerAdapter的区别与使用场景
+1. 					Fragment初始化参数调用哪个方法？
+1. 					Fragment懒加载怎么实现？
+1. 					Fragment 与Activity之间如何通信
+1. 					Fragment在ViewPage中onCreateView 执行多次  retrurn View 是如何处理的
 
 ##					ListView
 1. 					ListView 如何优化

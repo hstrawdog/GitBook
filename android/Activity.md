@@ -80,3 +80,13 @@ Binder传递缓存有一个限定大小，通常是1Mb。但同一个进程中�
 在使用Intent传递数据时，1Mb并不是安全上限。因为Binder中可能正在处理其它的传输工作。 不同的机型和系统版本，这个上限值也可能会不同。
 
 https://juejin.im/post/5caa01b15188254aa83f8154
+
+## Activity何时销毁何时回收
+
+onDestory销毁 回收需要等系统gc
+
+# 横竖屏切换的Activity生命周期变化
+
+# 如何启动其他应用的Activity
+
+# Activity的启动过程

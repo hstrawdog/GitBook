@@ -52,6 +52,7 @@
 		* 							scrollTo(int x, int y)：将一个视图的内容移动到指定位置.此时偏移量 mScrollX,mScrollY就分别等于x,y.
 		* 							scrollBy(int x, int y)： 在现有的基础上继续移动视图的内容.
 	1. 						对于ViewGroup来说：
+		
 		* 							移动的是它对应的所有子View。
 	1. 注意：
 		
@@ -191,21 +192,28 @@
 
  [参考](https://www.jianshu.com/p/1fddeb8ec9fe)
 					
-##				事件分发
+#				事件分发
 1. 				Activity
 	* 					dispatchTouchEvent
 	* 					onTouchEvent
+	
 1. 				Group
 	* 					dispatchTouchEvent
 	* 					onInterceptTouchEvent
 	* 					onTouchEvent
+	
 1. 				View
 	* 					dispatchTouchEvent
 	* 					onTouchEvent
+	
 1. 流程图
-					 
-				参考
-				参考1
+	
+
+![img](https://img-blog.csdn.net/20130812110316937?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcWl1c2h1aXFpZmVp/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+
+https://blog.csdn.net/xyz_lmn/article/details/12517911
+
+
 #			动画
 ##				Android中的动画分为哪些种类
 1. ValueAnimator(属性动画)
@@ -224,7 +232,7 @@
 		1. 								onAnimationUpdate()动画中每一帧更新的时候调用
 							AnimatorListenerAdapter
 	1. 						Animator在xml中
-				
+	
 1. 视图动画（View 动画）
 1. 	帧动画（Frame 动画、Drawable 动画）
 1. 触摸反馈动画（Ripple Effect）
@@ -240,7 +248,7 @@
 参考 animator家族
 							
 ##				插值器
- 
+
  	定义：一个接口
  	作用：设置 属性值 从初始值过渡到结束值 的变化规律
 

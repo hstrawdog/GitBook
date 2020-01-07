@@ -1,5 +1,27 @@
+## 常用命令
 
-# 插件
+启动服务
+
+```
+gitbook serve
+```
+
+安装插件
+
+```
+gitbook install
+```
+
+打包
+
+```
+gitbook build . docs
+```
+
+
+
+## 插件
+
 1. [参考](https://segmentfault.com/a/1190000019806829)
 1. [GitBook 悬浮目录](https://github.com/zq99299/gitbook-plugin-anchor-navigation-ex)
 1. [GitBook 插件](https://www.jianshu.com/p/427b8bb066e6)
@@ -8,7 +30,9 @@
 
 
 
-#其他搭建方式
+
+### 其他搭建方式
+
 ## docsify
 与GitPage 搭配使用效果与GitBook类似
 

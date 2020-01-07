@@ -1,6 +1,7 @@
 # Resources(资源)
 
-# shape
-# selector
+# Shape
+# Selector
 # Bitmap
 # GradientDrawable
+

@@ -17,7 +17,9 @@
         "code",
         "chapter-fold",
          "page-treeview",
-        "anchor-navigation-ex" 
+        "anchor-navigation-ex",
+        "popup",
+        "pageview-count"
     ],
     "pluginsConfig": {
          "page-treeview": {

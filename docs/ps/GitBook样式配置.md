@@ -6,8 +6,6 @@
 1. [GitBook 插件](http://gitbook.zhangjikai.com/plugins.html)
 
 
-
-
 #其他搭建方式
 ## docsify
 与GitPage 搭配使用效果与GitBook类似
