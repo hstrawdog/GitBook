@@ -1,6 +1,6 @@
 # Service
 
-# 两种启动方式
+# 两种启动方式Start与Bind
 
 # 生命周期
 
@@ -24,6 +24,8 @@ Service默认并不会运行在子线程中，也不运行在一个独立的进�
 10. DownloadManager
 11. AlarmManager
 
-# IntentService
+# IntentService与自带的工作线程
 
 # JobService
+
+# 前台服务与Notify

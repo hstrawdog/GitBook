@@ -6,6 +6,8 @@
 1. 					Deeplink
 1. 					首屏加速
 1. 					离线包
+1. 					多进程WebView使用
+1. 					WebView与Native的通信 (Js通信)
 
 #### WebView 在三件套下 加载完,网页高度不正确的问
 

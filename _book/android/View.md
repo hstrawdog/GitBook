@@ -81,11 +81,19 @@
 
 1. Scroller
 
+## View的渲染机制
+
+​		onLayout与onMeasure
+
+​		onDraw映射机制
+
 ##			onMeasure
 
-				注意 在约束布局下设置machParent 设置宽度会出现无效
+注意 在约束布局下设置machParent 设置宽度会出现无效
 
 ##			ViewGroup
+
+
 
 ## View的绘制流程
 

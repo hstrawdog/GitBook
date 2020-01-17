@@ -1,5 +1,9 @@
 #			Activity
 
+https://www.jianshu.com/p/86c0a4afd28e
+
+https://blog.csdn.net/weixin_44339238/article/details/103977138
+
 ##				生命周期
 
 1. 					onCreate 
@@ -19,6 +23,8 @@
 1. 					栈顶复用模式singleTop：
 1. 					栈内复用模式singleTask：
 1. 					全局唯一模式singleInstance：
+
+## 启动模式与 Intent Flog
 
 ##	 				用Intent传递数据和Bundle传递数据的区别
 

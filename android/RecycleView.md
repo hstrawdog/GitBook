@@ -18,6 +18,12 @@
 
 1. 如何进行局部刷新
 
+1. 布局管理器LayoutMager
+
+1. 条目装饰ItemDecoretion
+
+1. ViewHoleder与回收复用机制
+
 1. RecycleView item悬停
 
    https://stackoverflow.com/questions/32949971/how-can-i-make-sticky-headers-in-recyclerview-without-external-lib?tdsourcetag=s_pctim_aiomsg

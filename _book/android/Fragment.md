@@ -1,6 +1,9 @@
 # Fragment
 
 1. Fragment懒加载怎么实现？/如何避免 onCreateView 多次执行
+1. Fragment事务管理机制
+1. Fragment 转场动画
+1. 嵌套处理 getChildFragmentManager
 1. 述说V4下的Fragment与Android下的Fragment有什么区别
 1. fragment 重叠问题
 1. FragmentPagerAdapter与FragmentStatePagerAdapter 区别与使用场景

@@ -24,6 +24,8 @@ https://blog.csdn.net/weixin_44339238/article/details/103977138
 1. 					栈内复用模式singleTask：
 1. 					全局唯一模式singleInstance：
 
+## 启动模式与 Intent Flog
+
 ##	 				用Intent传递数据和Bundle传递数据的区别
 
 两者本质上没有任何区别。
