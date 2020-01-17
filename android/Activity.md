@@ -1,5 +1,9 @@
 #			Activity
 
+https://www.jianshu.com/p/86c0a4afd28e
+
+https://blog.csdn.net/weixin_44339238/article/details/103977138
+
 ##				生命周期
 
 1. 					onCreate 
