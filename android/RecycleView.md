@@ -1,8 +1,13 @@
 # RecycleView
 
-1. 为什么要用RecycleView
+1. [为什么要用RecycleView](http://zjutkz.net/2016/08/10/%E6%88%91%E4%BB%AC%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E4%BD%BF%E7%94%A8RecyclerView/)
+	- 效率 多级缓存池
+	-  解耦  拓展性强
+	-  灵活 可以深层的定制或者灵活修改 动画效果之类的
+	-  专注 没有多余与列表无关的东西
+1. RecycleView 与 ListView的区别
 
-1. RecycleView与ListView的区别
+1. RecycleVIew 与ListView  有哪些优势
 
 1. RecycleView的三级缓存/四级缓存
 
