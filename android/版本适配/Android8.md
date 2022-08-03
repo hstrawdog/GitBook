@@ -1,0 +1,7 @@
+- 通知,渠道->[适配](https://blog.csdn.net/guolin_blog/article/details/79854070)
+- 画中画
+- 自动填充
+- 后台限制
+- 自适应桌面图标->[适配](https://blog.csdn.net/guolin_blog/article/details/79417483)
+- 隐式广播限制
+- 开启后台Service限制

@@ -1,6 +1,12 @@
 
 
 # String相关
+### String是java中的基本数据类型吗？是可变的吗？是线程安全的吗？
+
+- String不是基本数据类型，java中把j基本据类型是：byte, short, int, long, char, float, double, boolean
+- String是不可变的
+- String是不可变类，一旦创建了String对象，我们就无法改变它的值。因此，它是线程安全的，可以安全地用于多线程环境中
+
 # String StringBuilder StringBuffer 的区别
 
 String：适用于少量的字符串操作的情况

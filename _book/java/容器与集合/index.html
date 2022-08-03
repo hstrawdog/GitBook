@@ -1,0 +1,2382 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>容器与集合 · gitbook tutorial</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-code/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-chapter-fold/chapter-fold.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-page-treeview/style.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-pageview-count/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="Collection.html" />
+    
+    
+    <link rel="prev" href="../数据结构和算法.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        <li class="header">语言</li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Java
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../异常.html">
+            
+                <a href="../异常.html">
+            
+                    
+                    异常
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../数据结构和算法.html">
+            
+                <a href="../数据结构和算法.html">
+            
+                    
+                    数据结构和算法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.3" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    容器与集合
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.3.1" data-path="Collection.html">
+            
+                <a href="Collection.html">
+            
+                    
+                    Collection
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.2" data-path="Map.html">
+            
+                <a href="Map.html">
+            
+                    
+                    Map
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../String相关.html">
+            
+                <a href="../String相关.html">
+            
+                    
+                    String相关
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="../IO流.html">
+            
+                <a href="../IO流.html">
+            
+                    
+                    IO流
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="../线程.html">
+            
+                <a href="../线程.html">
+            
+                    
+                    线程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="../泛型.html">
+            
+                <a href="../泛型.html">
+            
+                    
+                    泛型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="../Socket.html">
+            
+                <a href="../Socket.html">
+            
+                    
+                    Socket
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9" data-path="../算法.html">
+            
+                <a href="../算法.html">
+            
+                    
+                    算法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.10" data-path="../序列化.html">
+            
+                <a href="../序列化.html">
+            
+                    
+                    序列化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.11" data-path="../Java高级.html">
+            
+                <a href="../Java高级.html">
+            
+                    
+                    Java高级
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.12" data-path="../反射.html">
+            
+                <a href="../反射.html">
+            
+                    
+                    反射
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.13" data-path="../基础知识.html">
+            
+                <a href="../基础知识.html">
+            
+                    
+                    基础知识
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../../Android/">
+            
+                <a href="../../Android/">
+            
+                    
+                    Android
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../../Android/测试.html">
+            
+                <a href="../../Android/测试.html">
+            
+                    
+                    测试
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../../Android/对话框.html">
+            
+                <a href="../../Android/对话框.html">
+            
+                    
+                    对话框
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../../Android/resources.html">
+            
+                <a href="../../Android/resources.html">
+            
+                    
+                    resources
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../../Android/图片.html">
+            
+                <a href="../../Android/图片.html">
+            
+                    
+                    图片
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../../Android/小部件.html">
+            
+                <a href="../../Android/小部件.html">
+            
+                    
+                    小部件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="../../Android/框架/">
+            
+                <a href="../../Android/框架/">
+            
+                    
+                    框架
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.6.1" data-path="../../Android/框架/网络请求/">
+            
+                <a href="../../Android/框架/网络请求/">
+            
+                    
+                    网络请求
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6.2" data-path="../../Android/框架/数据库/">
+            
+                <a href="../../Android/框架/数据库/">
+            
+                    
+                    数据库
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6.3" data-path="../../Android/框架/图片加载/">
+            
+                <a href="../../Android/框架/图片加载/">
+            
+                    
+                    图片加载
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6.4" data-path="../../Android/框架/第三方开源框架.html">
+            
+                <a href="../../Android/框架/第三方开源框架.html">
+            
+                    
+                    第三方开源框架
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="../../Android/版本适配/">
+            
+                <a href="../../Android/版本适配/">
+            
+                    
+                    版本适配
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.7.1" data-path="../../Android/版本适配/权限适配.html">
+            
+                <a href="../../Android/版本适配/权限适配.html">
+            
+                    
+                    权限适配
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7.2" data-path="../../Android/版本适配/Android10.html">
+            
+                <a href="../../Android/版本适配/Android10.html">
+            
+                    
+                    Android10
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7.3" data-path="../../Android/版本适配/Android11.html">
+            
+                <a href="../../Android/版本适配/Android11.html">
+            
+                    
+                    Android11
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7.4" data-path="../../Android/版本适配/Android8.html">
+            
+                <a href="../../Android/版本适配/Android8.html">
+            
+                    
+                    Android8
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7.5" data-path="../../Android/版本适配/Android12.html">
+            
+                <a href="../../Android/版本适配/Android12.html">
+            
+                    
+                    Android12
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7.6" data-path="../../Android/版本适配/Index.html">
+            
+                <a href="../../Android/版本适配/Index.html">
+            
+                    
+                    Index
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7.7" data-path="../../Android/版本适配/Android13.html">
+            
+                <a href="../../Android/版本适配/Android13.html">
+            
+                    
+                    Android13
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7.8" data-path="../../Android/版本适配/Android9.html">
+            
+                <a href="../../Android/版本适配/Android9.html">
+            
+                    
+                    Android9
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8" data-path="../../Android/性能与优化/">
+            
+                <a href="../../Android/性能与优化/">
+            
+                    
+                    性能与优化
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.8.1" data-path="../../Android/性能与优化/布局优化.html">
+            
+                <a href="../../Android/性能与优化/布局优化.html">
+            
+                    
+                    布局优化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8.2" data-path="../../Android/性能与优化/启动优化.html">
+            
+                <a href="../../Android/性能与优化/启动优化.html">
+            
+                    
+                    启动优化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8.3" data-path="../../Android/性能与优化/性能.html">
+            
+                <a href="../../Android/性能与优化/性能.html">
+            
+                    
+                    性能
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8.4" data-path="../../Android/性能与优化/体积优化.html">
+            
+                <a href="../../Android/性能与优化/体积优化.html">
+            
+                    
+                    体积优化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8.5" data-path="../../Android/性能与优化/内存优化.html">
+            
+                <a href="../../Android/性能与优化/内存优化.html">
+            
+                    
+                    内存优化
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.9" data-path="../../Android/键盘.html">
+            
+                <a href="../../Android/键盘.html">
+            
+                    
+                    键盘
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.10" data-path="../../Android/安全以及混淆.html">
+            
+                <a href="../../Android/安全以及混淆.html">
+            
+                    
+                    安全以及混淆
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.11" data-path="../../Android/View.html">
+            
+                <a href="../../Android/View.html">
+            
+                    
+                    View
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.12" data-path="../../Android/屏幕适配/">
+            
+                <a href="../../Android/屏幕适配/">
+            
+                    
+                    屏幕适配
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.12.1" data-path="../../Android/屏幕适配/Index.html">
+            
+                <a href="../../Android/屏幕适配/Index.html">
+            
+                    
+                    Index
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.12.2" data-path="../../Android/屏幕适配/屏幕适配.html">
+            
+                <a href="../../Android/屏幕适配/屏幕适配.html">
+            
+                    
+                    屏幕适配
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.13" data-path="../../Android/Android面试整理.html">
+            
+                <a href="../../Android/Android面试整理.html">
+            
+                    
+                    Android面试整理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.14" data-path="../../Android/数据存储/">
+            
+                <a href="../../Android/数据存储/">
+            
+                    
+                    数据存储
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.14.1" data-path="../../Android/数据存储/数据库 Sqlite.html">
+            
+                <a href="../../Android/数据存储/数据库 Sqlite.html">
+            
+                    
+                    数据库 Sqlite
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.15" data-path="../../Android/存储.html">
+            
+                <a href="../../Android/存储.html">
+            
+                    
+                    存储
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.16" data-path="../../Android/方向性技能.html">
+            
+                <a href="../../Android/方向性技能.html">
+            
+                    
+                    方向性技能
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.17" data-path="../../Android/Tint 着色.html">
+            
+                <a href="../../Android/Tint 着色.html">
+            
+                    
+                    Tint 着色
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.18" data-path="../../Android/绘图/">
+            
+                <a href="../../Android/绘图/">
+            
+                    
+                    绘图
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.18.1" data-path="../../Android/绘图/Path.html">
+            
+                <a href="../../Android/绘图/Path.html">
+            
+                    
+                    Path
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.18.2" data-path="../../Android/绘图/Pain.html">
+            
+                <a href="../../Android/绘图/Pain.html">
+            
+                    
+                    Pain
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.18.3" data-path="../../Android/绘图/Canvas.html">
+            
+                <a href="../../Android/绘图/Canvas.html">
+            
+                    
+                    Canvas
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.18.4" data-path="../../Android/绘图/Bitmap.html">
+            
+                <a href="../../Android/绘图/Bitmap.html">
+            
+                    
+                    Bitmap
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.18.5" data-path="../../Android/绘图/Matrix.html">
+            
+                <a href="../../Android/绘图/Matrix.html">
+            
+                    
+                    Matrix
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.19" data-path="../../Android/架构/">
+            
+                <a href="../../Android/架构/">
+            
+                    
+                    架构
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.19.1" data-path="../../Android/架构/组件化.html">
+            
+                <a href="../../Android/架构/组件化.html">
+            
+                    
+                    组件化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.19.2" data-path="../../Android/架构/架构.html">
+            
+                <a href="../../Android/架构/架构.html">
+            
+                    
+                    架构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.19.3" data-path="../../Android/架构/MVP.html">
+            
+                <a href="../../Android/架构/MVP.html">
+            
+                    
+                    MVP
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.19.4" data-path="../../Android/架构/MVC.html">
+            
+                <a href="../../Android/架构/MVC.html">
+            
+                    
+                    MVC
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.19.5" data-path="../../Android/架构/MVVM.html">
+            
+                <a href="../../Android/架构/MVVM.html">
+            
+                    
+                    MVVM
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.19.6" data-path="../../Android/架构/项目架构.html">
+            
+                <a href="../../Android/架构/项目架构.html">
+            
+                    
+                    项目架构
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.20" data-path="../../Android/Jiepack/">
+            
+                <a href="../../Android/Jiepack/">
+            
+                    
+                    Jiepack
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.20.1" data-path="../../Android/Jiepack/Behavior/index.md">
+            
+                <span>
+            
+                    
+                    Behavior
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.20.2" data-path="../../Android/Jiepack/UI/index.md">
+            
+                <span>
+            
+                    
+                    UI
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.20.3" data-path="../../Android/Jiepack/jetpack.html">
+            
+                <a href="../../Android/Jiepack/jetpack.html">
+            
+                    
+                    jetpack
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.20.4" data-path="../../Android/Jiepack/Foundation/index.md">
+            
+                <span>
+            
+                    
+                    Foundation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.20.5" data-path="../../Android/Jiepack/Architecture/index.md">
+            
+                <span>
+            
+                    
+                    Architecture
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.20.5.1" data-path="../../Android/Jiepack/Architecture/Lifecycle.html">
+            
+                <a href="../../Android/Jiepack/Architecture/Lifecycle.html">
+            
+                    
+                    Lifecycle
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.20.5.2" data-path="../../Android/Jiepack/Architecture/ViewModel.html">
+            
+                <a href="../../Android/Jiepack/Architecture/ViewModel.html">
+            
+                    
+                    ViewModel
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.20.5.3" data-path="../../Android/Jiepack/Architecture/ViewBinding.html">
+            
+                <a href="../../Android/Jiepack/Architecture/ViewBinding.html">
+            
+                    
+                    ViewBinding
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.20.5.4" data-path="../../Android/Jiepack/Architecture/Room.html">
+            
+                <a href="../../Android/Jiepack/Architecture/Room.html">
+            
+                    
+                    Room
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.20.5.5" data-path="../../Android/Jiepack/Architecture/DataBinding.html">
+            
+                <a href="../../Android/Jiepack/Architecture/DataBinding.html">
+            
+                    
+                    DataBinding
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.20.5.6" data-path="../../Android/Jiepack/Architecture/LiveData.html">
+            
+                <a href="../../Android/Jiepack/Architecture/LiveData.html">
+            
+                    
+                    LiveData
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.21" data-path="../../Android/动画.html">
+            
+                <a href="../../Android/动画.html">
+            
+                    
+                    动画
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.22" data-path="../../Android/Matrix.html">
+            
+                <a href="../../Android/Matrix.html">
+            
+                    
+                    Matrix
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.23" data-path="../../Android/事件分发.html">
+            
+                <a href="../../Android/事件分发.html">
+            
+                    
+                    事件分发
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.24" data-path="../../Android/序列化.html">
+            
+                <a href="../../Android/序列化.html">
+            
+                    
+                    序列化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.25" data-path="../../Android/多线程/">
+            
+                <a href="../../Android/多线程/">
+            
+                    
+                    多线程
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.25.1" data-path="../../Android/多线程/handler.html">
+            
+                <a href="../../Android/多线程/handler.html">
+            
+                    
+                    handler
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.26" data-path="../../Android/UI组件/">
+            
+                <a href="../../Android/UI组件/">
+            
+                    
+                    UI组件
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.26.1" data-path="../../Android/UI组件/View-自定义/">
+            
+                <a href="../../Android/UI组件/View-自定义/">
+            
+                    
+                    View-自定义
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.26.2" data-path="../../Android/UI组件/View-容器/">
+            
+                <a href="../../Android/UI组件/View-容器/">
+            
+                    
+                    View-容器
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.26.2.1" data-path="../../Android/UI组件/View-容器/RecycleView.html">
+            
+                <a href="../../Android/UI组件/View-容器/RecycleView.html">
+            
+                    
+                    RecycleView
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.26.2.2" data-path="../../Android/UI组件/View-容器/NestedScrollView.html">
+            
+                <a href="../../Android/UI组件/View-容器/NestedScrollView.html">
+            
+                    
+                    NestedScrollView
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.26.2.3" data-path="../../Android/UI组件/View-容器/ScrollView.html">
+            
+                <a href="../../Android/UI组件/View-容器/ScrollView.html">
+            
+                    
+                    ScrollView
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.26.2.4" data-path="../../Android/UI组件/View-容器/Fragment.html">
+            
+                <a href="../../Android/UI组件/View-容器/Fragment.html">
+            
+                    
+                    Fragment
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.26.2.5" data-path="../../Android/UI组件/View-容器/Toolbar.html">
+            
+                <a href="../../Android/UI组件/View-容器/Toolbar.html">
+            
+                    
+                    Toolbar
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.26.2.6" data-path="../../Android/UI组件/View-容器/ViewPage.html">
+            
+                <a href="../../Android/UI组件/View-容器/ViewPage.html">
+            
+                    
+                    ViewPage
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.26.2.7" data-path="../../Android/UI组件/View-容器/TabLayout.html">
+            
+                <a href="../../Android/UI组件/View-容器/TabLayout.html">
+            
+                    
+                    TabLayout
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.26.2.8" data-path="../../Android/UI组件/View-容器/ListView.html">
+            
+                <a href="../../Android/UI组件/View-容器/ListView.html">
+            
+                    
+                    ListView
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.26.3" data-path="../../Android/UI组件/View-布局/">
+            
+                <a href="../../Android/UI组件/View-布局/">
+            
+                    
+                    View-布局
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.26.3.1" data-path="../../Android/UI组件/View-布局/DrawerLayout.html">
+            
+                <a href="../../Android/UI组件/View-布局/DrawerLayout.html">
+            
+                    
+                    DrawerLayout
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.26.3.2" data-path="../../Android/UI组件/View-布局/Index.html">
+            
+                <a href="../../Android/UI组件/View-布局/Index.html">
+            
+                    
+                    Index
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.26.3.3" data-path="../../Android/UI组件/View-布局/CardView.html">
+            
+                <a href="../../Android/UI组件/View-布局/CardView.html">
+            
+                    
+                    CardView
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.26.3.4" data-path="../../Android/UI组件/View-布局/framework.html">
+            
+                <a href="../../Android/UI组件/View-布局/framework.html">
+            
+                    
+                    framework
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.26.4" data-path="../../Android/UI组件/View-基础控件/">
+            
+                <a href="../../Android/UI组件/View-基础控件/">
+            
+                    
+                    View-基础控件
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.26.4.1" data-path="../../Android/UI组件/View-基础控件/RatingBar.html">
+            
+                <a href="../../Android/UI组件/View-基础控件/RatingBar.html">
+            
+                    
+                    RatingBar
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.26.4.2" data-path="../../Android/UI组件/View-基础控件/ProgressBar.html">
+            
+                <a href="../../Android/UI组件/View-基础控件/ProgressBar.html">
+            
+                    
+                    ProgressBar
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.26.4.3" data-path="../../Android/UI组件/View-基础控件/SeekBar.html">
+            
+                <a href="../../Android/UI组件/View-基础控件/SeekBar.html">
+            
+                    
+                    SeekBar
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.26.4.4" data-path="../../Android/UI组件/View-基础控件/Button.html">
+            
+                <a href="../../Android/UI组件/View-基础控件/Button.html">
+            
+                    
+                    Button
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.26.4.5" data-path="../../Android/UI组件/View-基础控件/WebView.html">
+            
+                <a href="../../Android/UI组件/View-基础控件/WebView.html">
+            
+                    
+                    WebView
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.26.4.6" data-path="../../Android/UI组件/View-基础控件/EditText.html">
+            
+                <a href="../../Android/UI组件/View-基础控件/EditText.html">
+            
+                    
+                    EditText
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.26.4.7" data-path="../../Android/UI组件/View-基础控件/Index.html">
+            
+                <a href="../../Android/UI组件/View-基础控件/Index.html">
+            
+                    
+                    Index
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.26.4.8" data-path="../../Android/UI组件/View-基础控件/ImageView.html">
+            
+                <a href="../../Android/UI组件/View-基础控件/ImageView.html">
+            
+                    
+                    ImageView
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.26.4.9" data-path="../../Android/UI组件/View-基础控件/TextView.html">
+            
+                <a href="../../Android/UI组件/View-基础控件/TextView.html">
+            
+                    
+                    TextView
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.26.4.10" data-path="../../Android/UI组件/View-基础控件/TextView属性大全.html">
+            
+                <a href="../../Android/UI组件/View-基础控件/TextView属性大全.html">
+            
+                    
+                    TextView属性大全
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.27" data-path="../../Android/四大组件/">
+            
+                <a href="../../Android/四大组件/">
+            
+                    
+                    四大组件
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.27.1" data-path="../../Android/四大组件/四大组件.html">
+            
+                <a href="../../Android/四大组件/四大组件.html">
+            
+                    
+                    四大组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.27.2" data-path="../../Android/四大组件/BroadcastReceiver.html">
+            
+                <a href="../../Android/四大组件/BroadcastReceiver.html">
+            
+                    
+                    BroadcastReceiver
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.27.3" data-path="../../Android/四大组件/四大组件综合问题.html">
+            
+                <a href="../../Android/四大组件/四大组件综合问题.html">
+            
+                    
+                    四大组件综合问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.27.4" data-path="../../Android/四大组件/ContentProvider.html">
+            
+                <a href="../../Android/四大组件/ContentProvider.html">
+            
+                    
+                    ContentProvider
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.27.5" data-path="../../Android/四大组件/Service.html">
+            
+                <a href="../../Android/四大组件/Service.html">
+            
+                    
+                    Service
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.27.6" data-path="../../Android/四大组件/Activity.html">
+            
+                <a href="../../Android/四大组件/Activity.html">
+            
+                    
+                    Activity
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.28" data-path="../../Android/Toask.html">
+            
+                <a href="../../Android/Toask.html">
+            
+                    
+                    Toask
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.29" data-path="../../Android/UI.html">
+            
+                <a href="../../Android/UI.html">
+            
+                    
+                    UI
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.30" data-path="../../Android/音视频.html">
+            
+                <a href="../../Android/音视频.html">
+            
+                    
+                    音视频
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../../Kotlin/">
+            
+                <a href="../../Kotlin/">
+            
+                    
+                    Kotlin
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../../Kotlin/协程.html">
+            
+                <a href="../../Kotlin/协程.html">
+            
+                    
+                    协程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../../Kotlin/拓展.html">
+            
+                <a href="../../Kotlin/拓展.html">
+            
+                    
+                    拓展
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../../Kotlin/DSL.html">
+            
+                <a href="../../Kotlin/DSL.html">
+            
+                    
+                    DSL
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../../Kotlin/Flow.html">
+            
+                <a href="../../Kotlin/Flow.html">
+            
+                    
+                    Flow
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../../Kotlin/高阶函数.html">
+            
+                <a href="../../Kotlin/高阶函数.html">
+            
+                    
+                    高阶函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../../Web/">
+            
+                <a href="../../Web/">
+            
+                    
+                    Web
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../../Autojs/">
+            
+                <a href="../../Autojs/">
+            
+                    
+                    Autojs
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../../Autojs/Index.html">
+            
+                <a href="../../Autojs/Index.html">
+            
+                    
+                    Index
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../../Flutter/">
+            
+                <a href="../../Flutter/">
+            
+                    
+                    Flutter
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../../Flutter/dart基本语法.html">
+            
+                <a href="../../Flutter/dart基本语法.html">
+            
+                    
+                    dart基本语法
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../../OpenCV/">
+            
+                <a href="../../OpenCV/">
+            
+                    
+                    OpenCV
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../../OpenGl/">
+            
+                <a href="../../OpenGl/">
+            
+                    
+                    OpenGl
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="../../OpenGl/opengl.html">
+            
+                <a href="../../OpenGl/opengl.html">
+            
+                    
+                    opengl
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../../Python/">
+            
+                <a href="../../Python/">
+            
+                    
+                    Python
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">其他</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../../规划/">
+            
+                <a href="../../规划/">
+            
+                    
+                    规划
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../../ps/">
+            
+                <a href="../../ps/">
+            
+                    
+                    ps
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1" data-path="../../ps/ref.html">
+            
+                <a href="../../ps/ref.html">
+            
+                    
+                    ref
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2" data-path="../../ps/MarkDown.html">
+            
+                <a href="../../ps/MarkDown.html">
+            
+                    
+                    MarkDown
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.3" data-path="../../ps/GitBook样式配置.html">
+            
+                <a href="../../ps/GitBook样式配置.html">
+            
+                    
+                    GitBook样式配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../../AndroidStudio/">
+            
+                <a href="../../AndroidStudio/">
+            
+                    
+                    AndroidStudio
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.3.1" data-path="../../AndroidStudio/插件.html">
+            
+                <a href="../../AndroidStudio/插件.html">
+            
+                    
+                    插件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.2" data-path="../../AndroidStudio/AS快捷键.html">
+            
+                <a href="../../AndroidStudio/AS快捷键.html">
+            
+                    
+                    AS快捷键
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="../../GitBook/">
+            
+                <a href="../../GitBook/">
+            
+                    
+                    GitBook
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="../../设计模式/">
+            
+                <a href="../../设计模式/">
+            
+                    
+                    设计模式
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.5.1" data-path="../../设计模式/六大原则.html">
+            
+                <a href="../../设计模式/六大原则.html">
+            
+                    
+                    六大原则
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.2" data-path="../../设计模式/24中设计模式.html">
+            
+                <a href="../../设计模式/24中设计模式.html">
+            
+                    
+                    24中设计模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="../../Git/">
+            
+                <a href="../../Git/">
+            
+                    
+                    Git
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >容器与集合</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><li><span class="title-icon "></span><a href="#collection"><b>1. </b>Collection</a></li><ul><li><span class="title-icon "></span><a href="#&#x5206;&#x7C7B;"><b>1.1. </b>&#x5206;&#x7C7B;</a></li><li><span class="title-icon "></span><a href="#&#x5E38;&#x7528;&#x65B9;&#x6CD5;"><b>1.2. </b>&#x5E38;&#x7528;&#x65B9;&#x6CD5;</a></li></ul><li><span class="title-icon "></span><a href="#map"><b>2. </b>Map</a></li></ul></div><a href="#collection" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><div class="treeview__container"><ul>
+<li><div><a href="#collection">Collection</a><i class="level__parent level__item level__parent--opened" state="opened" onclick="var curState = this.getAttribute(&apos;state&apos;);var nextState = curState === &apos;opened&apos; ? &apos;hidden&apos; : &apos;opened&apos;;this.setAttribute(&apos;state&apos;, nextState);this.className = this.className.split(curState).join(nextState);var list = this.parentNode.nextElementSibling;if (nextState === &apos;hidden&apos;) {    list.style.display = &apos;none&apos;;} else {    list.style.display = &apos;block&apos;;}"></i></div>
+<ul>
+<li><div><a href="#&#x5206;&#x7C7B;">&#x5206;&#x7C7B;</a><i></i></div></li>
+<li><div><a href="#&#x5E38;&#x7528;&#x65B9;&#x6CD5;">&#x5E38;&#x7528;&#x65B9;&#x6CD5;</a><i></i></div></li>
+</ul></li>
+<li><div><a href="#map">Map</a><i></i></div></li>
+</ul>
+</div>
+
+<p><a href="https://img-blog.csdnimg.cn/aea318250cd14253ad071180a123544e.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5YWx6aWu5LiA5p2v5peg,size_20,color_FFFFFF,t_70,g_se,x_16" target="_blank">https://img-blog.csdnimg.cn/aea318250cd14253ad071180a123544e.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5YWx6aWu5LiA5p2v5peg,size_20,color_FFFFFF,t_70,g_se,x_16</a></p>
+<h1 id="collection"><a name="collection" class="anchor-navigation-ex-anchor" href="#collection"><i class="fa fa-link" aria-hidden="true"></i></a>1. Collection</h1>
+<h2 id="&#x5206;&#x7C7B;"><a name="&#x5206;&#x7C7B;" class="anchor-navigation-ex-anchor" href="#&#x5206;&#x7C7B;"><i class="fa fa-link" aria-hidden="true"></i></a>1.1. &#x5206;&#x7C7B;</h2>
+<ol>
+<li><p>List</p>
+<ol>
+<li>ArrarList</li>
+<li>LinkedList</li>
+<li>Vector </li>
+</ol>
+</li>
+<li><p>Set</p>
+<ol>
+<li>HashSet</li>
+<li>TreeSet</li>
+</ol>
+</li>
+</ol>
+<h2 id="&#x5E38;&#x7528;&#x65B9;&#x6CD5;"><a name="&#x5E38;&#x7528;&#x65B9;&#x6CD5;" class="anchor-navigation-ex-anchor" href="#&#x5E38;&#x7528;&#x65B9;&#x6CD5;"><i class="fa fa-link" aria-hidden="true"></i></a>1.2. &#x5E38;&#x7528;&#x65B9;&#x6CD5;</h2>
+<p>   Collection&#x662F;&#x6240;&#x6709;&#x5355;&#x5217;&#x96C6;&#x5408;&#x7684;&#x7236;&#x63A5;&#x53E3;&#xFF0C;&#x56E0;&#x6B64;&#x5728;Collection&#x4E2D;&#x5B9A;&#x4E49;&#x4E86;&#x5355;&#x5217;&#x96C6;&#x5408;(List&#x548C;Set)&#x901A;&#x7528;&#x7684;&#x4E00;&#x4E9B;&#x65B9;&#x6CD5;&#xFF0C;&#x8FD9;&#x4E9B;&#x65B9;&#x6CD5;&#x53EF;&#x7528;&#x4E8E;&#x64CD;&#x4F5C;&#x6240;&#x6709;&#x7684;&#x5355;&#x5217;&#x96C6;&#x5408;&#x3002;&#x65B9;&#x6CD5;&#x5982;&#x4E0B;&#xFF1A;</p>
+<ol>
+<li>public boolean add(E e)&#xFF1A; &#x628A;&#x7ED9;&#x5B9A;&#x7684;&#x5BF9;&#x8C61;&#x6DFB;&#x52A0;&#x5230;&#x5F53;&#x524D;&#x96C6;&#x5408;&#x4E2D; &#x3002;</li>
+<li>public void clear() :&#x6E05;&#x7A7A;&#x96C6;&#x5408;&#x4E2D;&#x6240;&#x6709;&#x7684;&#x5143;&#x7D20;&#x3002;</li>
+<li>public boolean remove(E e): &#x628A;&#x7ED9;&#x5B9A;&#x7684;&#x5BF9;&#x8C61;&#x5728;&#x5F53;&#x524D;&#x96C6;&#x5408;&#x4E2D;&#x5220;&#x9664;&#x3002;</li>
+<li>public boolean contains(E e): &#x5224;&#x65AD;&#x5F53;&#x524D;&#x96C6;&#x5408;&#x4E2D;&#x662F;&#x5426;&#x5305;&#x542B;&#x7ED9;&#x5B9A;&#x7684;&#x5BF9;&#x8C61;&#x3002;</li>
+<li>public boolean isEmpty(): &#x5224;&#x65AD;&#x5F53;&#x524D;&#x96C6;&#x5408;&#x662F;&#x5426;&#x4E3A;&#x7A7A;&#x3002;</li>
+<li>public int size(): &#x8FD4;&#x56DE;&#x96C6;&#x5408;&#x4E2D;&#x5143;&#x7D20;&#x7684;&#x4E2A;&#x6570;&#x3002;</li>
+<li>public Object[] toArray(): &#x628A;&#x96C6;&#x5408;&#x4E2D;&#x7684;&#x5143;&#x7D20;&#xFF0C;&#x5B58;&#x50A8;&#x5230;&#x6570;&#x7EC4;&#x4E2D;&#x3002;</li>
+</ol>
+<h1 id="map"><a name="map" class="anchor-navigation-ex-anchor" href="#map"><i class="fa fa-link" aria-hidden="true"></i></a>2. Map</h1>
+<ol>
+<li>HashMap</li>
+<li>HashTable </li>
+<li>TreeMap</li>
+</ol>
+<p><a href="https://blog.csdn.net/qq_35427589/article/details/103721233" target="_blank">&#x53C2;&#x8003;</a></p>
+<footer class="page-footer"><span class="copyright">Copyright &#xA9; qiqiang 2020 all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x8BE5;&#x6587;&#x4EF6;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
+2022-07-26 18:18:52
+</span></footer>
+<script>console.log("plugin-popup....");document.onclick = function(e){ e.target.tagName === "IMG" && window.open(e.target.src,e.target.src)}</script><style>img{cursor:pointer}</style>
+                                
+                                </section>
+                            
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../数据结构和算法.html" class="navigation navigation-prev " aria-label="Previous page: 数据结构和算法">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="Collection.html" class="navigation navigation-next " aria-label="Next page: Collection">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"容器与集合","level":"1.2.3","depth":2,"next":{"title":"Collection","level":"1.2.3.1","depth":3,"path":"Java/容器与集合/Collection.md","ref":"Java/容器与集合/Collection.md","articles":[]},"previous":{"title":"数据结构和算法","level":"1.2.2","depth":2,"path":"Java/数据结构和算法.md","ref":"Java/数据结构和算法.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-search","-lunr","-highlight","github","hide-element","splitter","tbfed-pagefooter","code","chapter-fold","page-treeview","anchor-navigation-ex","popup","pageview-count"],"styles":{"website":"styles/website.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"Copyright &copy qiqiang 2020","modify_label":"该文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"page-treeview":{"copyright":"Copyright &#169; aleen42","minHeaderCount":"2","minHeaderDeep":"2"},"chapter-fold":{},"github":{"url":"https://github.com/huangqiqiang/Book"},"splitter":{},"popup":{},"code":{"copyButtons":true},"hide-element":{"elements":[".gitbook-link"]},"fontsettings":{"theme":"white","family":"sans","size":2},"anchor-navigation-ex":{"associatedWithSummary":true,"float":{"floatIcon":"fa fa-navicon","level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showGoTop":true,"showLevel":true},"pageview-count":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false,"mode":"float","float":{"floatIcon":"fa fa-navicon","showLevelIcon":false,"level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right"}}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"gitbook tutorial","language":"zh-hans","gitbook":"*","theme-default":{"showLevel":true}},"file":{"path":"Java/容器与集合/index.md","mtime":"2022-07-26T10:18:52.803Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-08-03T10:03:49.365Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-hide-element/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-code/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-chapter-fold/chapter-fold.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-pageview-count/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
