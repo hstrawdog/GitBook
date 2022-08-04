@@ -61,6 +61,7 @@ StringBuffer：适用多线程下在字符缓冲区进行大量操作的情况
 	- onSaveInstanceState 
 	- onRestoreInstanceState
 	- onNewIntent 
+	
 		  Singletop:如果任务栈的栈顶已经存在这个activity的实例, 不会创建新的activity,而是利用旧的activity实例 调用 旧的activity的onNewIntent()方法
 7. 
 
@@ -147,18 +148,11 @@ StringBuffer：适用多线程下在字符缓冲区进行大量操作的情况
 	 全屏  隐藏状态栏背景 
 	 在状态栏下面添加一个 状态栏一样大小的View
 	[参考来源]( https://juejin.im/post/5a30f1535188251c11409d77)
-## 设计模式
-### 1. 适配器模式
-### 2.单例模式
-1. 单利模式的几种写法
 ### 3. Builder模式
 
 ## [模块化开发 微信.api模式  ](https://blog.csdn.net/qiansg123/article/details/80130346)
 ## [第三方bug修复 transform  ASM ](https://www.jianshu.com/p/9039a3e46dbc)
-## Kotlin
-      - Kotlin 和 Java 相比，有哪些优点
-## Flutter
-<!-- endtoc -->
+
 
 
 
