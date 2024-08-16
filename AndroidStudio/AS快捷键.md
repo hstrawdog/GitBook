@@ -3,8 +3,13 @@
  1. #### 查找引用    edit -> find usages  -> Show Usages 
 
     设置成 command + F7   与原功能对调使用 
-    
-2. #### 提取方法（Extract Method）
+
+ 2. #### 移除无用的导入
+
+    - 描述 移除顶部冗余的导入/引用
+    - 快捷键 control + option +O
+
+3. #### 提取方法（Extract Method）
     - 描述：提取一段代码块，生成一个新的方法。当你发现某个方法里面过于复杂，需要将某一段代码提取成单独的方法时，该技巧是很有用的。
     - 调用：Menu → Refactor → Extract → Method
     - 快捷键：Cmd + Alt + M(OS X)、Ctrl + Alt + M(Windows/Linux)；shift+ Alt + M
@@ -12,7 +17,7 @@
 
     
 
-3. #### 书签（Bookmarks）
+4. #### 书签（Bookmarks）
 
     - 描述：这是一个很有用的功能，让你可以在某处做个标记（书签），方便后面再跳转到此处。
     - 调用：Menu → Navigate → Bookmarks

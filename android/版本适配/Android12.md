@@ -1,3 +1,5 @@
+# Android 12 (31) : S
+
 ## android:exported
 
 **它主要是设置 `Activity` 是否可由其他应用的组件启动**， “`true`” 则表示可以，而“`false`”表示不可以。
@@ -24,12 +26,6 @@ Android 12 新增加了 [`SplashScreen`](https://link.juejin.cn/?target=https%3A
 	1. 退出动画由隐藏启动画面的动画运行组成。如果要[对其进行自定义](https://developer.android.com/guide/topics/ui/splash-screen#customize-animation)，可以通过 [`SplashScreenView`](https://developer.android.com/reference/android/window/SplashScreenView) 自定义。
 
 [参考](https://juejin.cn/post/7037105000480243748/)
-
-
-
-
-
-
 
 
 
@@ -70,6 +66,6 @@ Android 12 新增加了 [`SplashScreen`](https://link.juejin.cn/?target=https%3A
 
 1.  
 
-     [参考](https://mp.weixin.qq.com/s/rA-1f8aa4PzjFuD6EIA7jw)
+     [适配参考](https://mp.weixin.qq.com/s/rA-1f8aa4PzjFuD6EIA7jw)
 
      

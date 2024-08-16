@@ -1,3 +1,5 @@
+# Android 8/8.1 (26/27) : Oreo
+
 - 通知,渠道->[适配](https://blog.csdn.net/guolin_blog/article/details/79854070)
 - 画中画
 - 自动填充

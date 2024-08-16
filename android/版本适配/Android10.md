@@ -1,3 +1,5 @@
+# Android 10 (29) : Q
+
 1. 暗黑模式
 1. 隐私增强(后台能否访问定位)
 1. 限制程序访问剪贴板
@@ -10,14 +12,17 @@
 1. 不能获取imei、imsi等 用oaid代替
 1. 使用androidx库代替了support库，没有了suppory库
 1. 后台打开activity做了限制
-	1. 应用某个activity刚启动不久
-	2. 最近activity调用了finish()（只适用调用了finish() ）前台任务返回栈中能找到该actviity 
-	3. 收到另一个可见应用发送的pendingInten通知、 
-	4. 点击通知栏打开activity 
-	5. 授权了悬浮窗的权限等等）
+    1. 应用某个activity刚启动不久
+    2. 最近activity调用了finish()（只适用调用了finish() ）前台任务返回栈中能找到该actviity 
+    3. 收到另一个可见应用发送的pendingInten通知、 
+    4. 点击通知栏打开activity 
+    5. 授权了悬浮窗的权限等等）
 1. 分区储存（支持不使用分区储存）
 1. 引入新的定位权限background location（后台获取定位 获取限制 1. activity可见 2. 服务为前台服务）
 1. 一些电话 API、蓝牙 API 和 WLAN API 需要精确位置权限
+1. 夜间模式：包括手机上的所有应用都可以为其设置暗黑模式。
+1. 桌面模式：提供类似于PC的体验，但是远远不能代替PC。
+1. 屏幕录制：通过长按“电源”菜单中的"屏幕快照"来开启。
 
 # 分区存储
 

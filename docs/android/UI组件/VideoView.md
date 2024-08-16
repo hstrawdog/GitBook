@@ -1,0 +1,14 @@
+- int getCurrentPosition()：获取当前播放的位置。
+- int getDuration()：获取当前播放视频的总长度。
+- isPlaying()：当前VideoView是否在播放视频。
+- void pause()：暂停
+- void seekTo(int msec)：从第几毫秒开始播放。
+- void resume()：重新播放。
+- void setVideoPath(String path)：以文件路径的方式设置VideoView播放的视频源。
+- void setVideoURI(Uri uri)：以Uri的方式设置VideoView播放的视频源，可以是网络Uri或本地Uri。
+- void start()：开始播放。
+- void stopPlayback()：停止播放。并释放资源
+- setMediaController(MediaController controller)：设置MediaController控制器。
+- setOnCompletionListener(MediaPlayer.onCompletionListener l)：监听播放完成的事件。
+- setOnErrorListener(MediaPlayer.OnErrorListener l)：监听播放发生错误时候的事件。
+- setOnPreparedListener(MediaPlayer.OnPreparedListener l)：：监听视频装载完成的事件。

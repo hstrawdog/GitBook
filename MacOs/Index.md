@@ -4,7 +4,13 @@
 ⌃—>control
 ⌘—>command
 
+⌃ d  退出命令
 
+⌃ L  清屏
+
+⌘ h  隐藏程序
+
+⌘ m 最小化界面
 
 ## [Homebrew](Homebrew.md)
 
